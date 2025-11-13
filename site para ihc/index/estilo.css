@@ -1,0 +1,211 @@
+
+
+body {
+    background-color: var(--preto-fundo, #0c0c0c); 
+    color: var(--cinza-claro, #EFEBE1); 
+    font-family: 'Georgia', serif; 
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: var(--preto-secundario, #1a1a1a);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.custom-brand {
+    color: var(--dourado-primario, #CAB273) !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.custom-link {
+    color: var(--cinza-claro, #EFEBE1) !important;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+    color: var(--dourado-primario, #CAB273) !important;
+}
+
+/*  Banner  */
+.hero-section {
+    
+    background-color: var(--preto-secundario, #1a1a1a);
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+.custom-title {
+    color: var(--dourado-primario, #CAB273);
+    font-weight: 300;
+}
+
+.custom-text {
+    color: var(--cinza-claro, #EFEBE1);
+}
+
+/* Botões  */
+.custom-btn {
+    background-color: var(--dourado-primario, #CAB273);
+    border: 1px solid var(--dourado-primario, #CAB273);
+    color: var(--preto-fundo, #0c0c0c); 
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 0; 
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: transparent;
+    color: var(--dourado-primario, #CAB273);
+    border: 1px solid var(--dourado-primario, #CAB273);
+}
+
+.custom-btn-secondary {
+    background-color: transparent;
+    color: var(--dourado-primario, #CAB273);
+    border: 1px solid var(--dourado-primario, #CAB273);
+    transition: all 0.3s ease;
+}
+
+.custom-btn-secondary:hover {
+    background-color: var(--dourado-primario, #CAB273);
+    color: var(--preto-fundo, #0c0c0c);
+}
+
+/* Seção de Produtos */
+.custom-section {
+    background-color: var(--preto-fundo, #0c0c0c);
+}
+
+.custom-heading {
+    color: var(--branco-brilho, #FFFFFF);
+    font-weight: bold;
+    border-bottom: 2px solid var(--dourado-primario, #CAB273);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.custom-card {
+    background-color: var(--preto-secundario, #1a1a1a);
+    border: 1px solid var(--preto-secundario, #1a1a1a);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(202, 178, 115, 0.4); 
+}
+
+.custom-card-title {
+    color: var(--dourado-primario, #CAB273);
+    font-weight: bold;
+}
+
+/* Imagens dentro dos cards de produto */
+.card-img-top {
+    height: 250px; 
+    object-fit: cover; 
+}
+
+/* Rodapé  */
+.custom-footer {
+    background-color: var(--preto-secundario, #1a1a1a);
+    border-top: 1px solid var(--dourado-primario, #CAB273);
+}
+
+.custom-text-footer {
+    color: var(--cinza-claro, #EFEBE1);
+    font-size: 0.9rem;
+}
+
+.custom-link-footer {
+    color: var(--cinza-claro, #EFEBE1) !important;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.custom-link-footer:hover {
+    color: var(--dourado-primario, #CAB273) !important;
+}
+
+/* Seção Sobre o Fundador */
+.sobre-fundador {
+  background: linear-gradient(180deg, #0b132b 0%, #1c2541 100%);
+  color: #f0f0f0;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.titulo-fundador {
+  font-size: 2.5rem;
+  color: #87CEFA; 
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.linha-fundador {
+  width: 80px;
+  height: 4px;
+  background: #87CEFA;
+  margin: 0 auto 2rem;
+  border-radius: 10px;
+}
+
+.foto-fundador {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #87CEFA;
+  box-shadow: 0 0 20px rgba(135, 206, 250, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.foto-fundador:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(135, 206, 250, 0.9);
+}
+
+.img-fundador {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.3) brightness(1.15) saturate(1.2);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+
+.nome-fundador {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.descricao-fundador {
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #dcdcdc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .foto-fundador {
+    width: 160px;
+    height: 160px;
+  }
+  .titulo-fundador {
+    font-size: 2rem;
+  }
+}
